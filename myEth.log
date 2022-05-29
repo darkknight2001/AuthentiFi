@@ -1,0 +1,381 @@
+INFO [05-29|15:45:42.217] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [05-29|15:45:42.217] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [05-29|15:45:42.218] Set global gas cap                       cap=50,000,000
+INFO [05-29|15:45:42.218] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [05-29|15:45:42.218] Allocated cache and file handles         database=/workspace/AuthentiFi/myDataDir/geth/chaindata cache=512.00MiB handles=524,288
+INFO [05-29|15:45:42.226] Opened ancient database                  database=/workspace/AuthentiFi/myDataDir/geth/chaindata/ancient readonly=false
+INFO [05-29|15:45:42.226] Writing default main-net genesis block 
+INFO [05-29|15:45:42.344] Persisted trie from memory database      nodes=12356 size=1.78MiB time=22.116025ms gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [05-29|15:45:42.359] Initialised chain configuration          config="{ChainID: 1 Homestead: 1150000 DAO: 1920000 DAOSupport: true EIP150: 2463000 EIP155: 2675000 EIP158: 2675000 Byzantium: 4370000 Constantinople: 7280000 Petersburg: 7280000 Istanbul: 9069000, Muir Glacier: 9200000, Berlin: 12244000, London: 12965000, Arrow Glacier: 13773000, MergeFork: <nil>, Terminal TD: <nil>, Engine: ethash}"
+INFO [05-29|15:45:42.359] Disk storage enabled for ethash caches   dir=/workspace/AuthentiFi/myDataDir/geth/ethash count=3
+INFO [05-29|15:45:42.359] Disk storage enabled for ethash DAGs     dir=/home/gitpod/.ethash count=2
+INFO [05-29|15:45:42.359] Initialising Ethereum protocol           network=1114 dbversion=<nil>
+INFO [05-29|15:45:42.360] Loaded most recent local header          number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=53y2mo1d
+INFO [05-29|15:45:42.360] Loaded most recent local full block      number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=53y2mo1d
+INFO [05-29|15:45:42.360] Loaded most recent local fast block      number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=53y2mo1d
+WARN [05-29|15:45:42.360] Failed to load snapshot, regenerating    err="missing or corrupted snapshot"
+INFO [05-29|15:45:42.360] Rebuilding state snapshot 
+INFO [05-29|15:45:42.360] Resuming state snapshot generation       root=d7f897..0f0544 accounts=0 slots=0 storage=0.00B dangling=0 elapsed="181.749µs"
+INFO [05-29|15:45:42.360] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [05-29|15:45:42.361] Gasprice oracle is ignoring threshold set threshold=2
+WARN [05-29|15:45:42.361] Error reading unclean shutdown markers   error="leveldb: not found"
+INFO [05-29|15:45:42.361] Starting peer-to-peer node               instance=Geth/v1.10.18-stable-de23cf91/linux-amd64/go1.18.1
+INFO [05-29|15:45:42.366] New local node record                    seq=1,653,839,142,364 id=2fdb8680eecee2d6 ip=127.0.0.1 udp=30303 tcp=30303
+INFO [05-29|15:45:42.366] Started P2P networking                   self=enode://b036ced7601cdc8427d120d301b46c51b22b5683ef3ca58c8cbc1280406b491c1ca4dd1d0a5b0e079d5f46532a9a8d4698388e28394960620d84d0b36c3353bf@127.0.0.1:30303
+INFO [05-29|15:45:42.368] IPC endpoint opened                      url=/workspace/AuthentiFi/myDataDir/geth.ipc
+WARN [05-29|15:45:42.420] Served eth_coinbase                      reqid=3 duration="39.37µs" err="etherbase must be explicitly specified"
+INFO [05-29|15:45:42.436] Generated state snapshot                 accounts=8893 slots=0 storage=409.64KiB dangling=0 elapsed=76.058ms
+INFO [05-29|15:45:50.175] IPC endpoint closed                      url=/workspace/AuthentiFi/myDataDir/geth.ipc
+INFO [05-29|15:45:50.175] Ethereum protocol stopped 
+INFO [05-29|15:45:50.175] Transaction pool stopped 
+INFO [05-29|15:45:50.175] Writing snapshot state to disk           root=d7f897..0f0544
+INFO [05-29|15:45:50.175] Persisted trie from memory database      nodes=0     size=0.00B   time="4.13µs"    gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [05-29|15:45:50.175] Writing clean trie cache to disk         path=/workspace/AuthentiFi/myDataDir/geth/triecache threads=16
+INFO [05-29|15:45:50.178] Persisted the clean trie cache           path=/workspace/AuthentiFi/myDataDir/geth/triecache elapsed=2.703ms
+INFO [05-29|15:45:50.178] Blockchain stopped 
+INFO [05-29|15:52:53.749] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [05-29|15:52:53.749] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [05-29|15:52:53.750] Set global gas cap                       cap=50,000,000
+INFO [05-29|15:52:53.750] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [05-29|15:52:53.750] Allocated cache and file handles         database=/workspace/AuthentiFi/myDataDir/geth/chaindata cache=512.00MiB handles=524,288
+INFO [05-29|15:52:53.756] Opened ancient database                  database=/workspace/AuthentiFi/myDataDir/geth/chaindata/ancient readonly=false
+INFO [05-29|15:52:53.757] Initialised chain configuration          config="{ChainID: 1 Homestead: 1150000 DAO: 1920000 DAOSupport: true EIP150: 2463000 EIP155: 2675000 EIP158: 2675000 Byzantium: 4370000 Constantinople: 7280000 Petersburg: 7280000 Istanbul: 9069000, Muir Glacier: 9200000, Berlin: 12244000, London: 12965000, Arrow Glacier: 13773000, MergeFork: <nil>, Terminal TD: <nil>, Engine: ethash}"
+INFO [05-29|15:52:53.758] Disk storage enabled for ethash caches   dir=/workspace/AuthentiFi/myDataDir/geth/ethash count=3
+INFO [05-29|15:52:53.758] Disk storage enabled for ethash DAGs     dir=/home/gitpod/.ethash count=2
+INFO [05-29|15:52:53.758] Initialising Ethereum protocol           network=1114 dbversion=8
+INFO [05-29|15:52:53.784] Loaded most recent local header          number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=53y2mo1d
+INFO [05-29|15:52:53.784] Loaded most recent local full block      number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=53y2mo1d
+INFO [05-29|15:52:53.784] Loaded most recent local fast block      number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=53y2mo1d
+INFO [05-29|15:52:53.784] Loaded local transaction journal         transactions=0 dropped=0
+INFO [05-29|15:52:53.784] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [05-29|15:52:53.785] Gasprice oracle is ignoring threshold set threshold=2
+INFO [05-29|15:52:53.785] Starting peer-to-peer node               instance=Geth/v1.10.18-stable-de23cf91/linux-amd64/go1.18.1
+INFO [05-29|15:52:53.791] New local node record                    seq=1,653,839,142,365 id=2fdb8680eecee2d6 ip=127.0.0.1 udp=30303 tcp=30303
+INFO [05-29|15:52:53.791] Started P2P networking                   self=enode://b036ced7601cdc8427d120d301b46c51b22b5683ef3ca58c8cbc1280406b491c1ca4dd1d0a5b0e079d5f46532a9a8d4698388e28394960620d84d0b36c3353bf@127.0.0.1:30303
+INFO [05-29|15:52:53.792] IPC endpoint opened                      url=/workspace/AuthentiFi/myDataDir/geth.ipc
+WARN [05-29|15:52:53.822] Served eth_coinbase                      reqid=3 duration="19.58µs" err="etherbase must be explicitly specified"
+WARN [05-29|15:52:56.209] Snapshot extension registration failed   peer=1d4fc8e3 err="peer connected on snap without compatible eth support"
+WARN [05-29|15:53:02.543] Snapshot extension registration failed   peer=04dfa983 err="peer connected on snap without compatible eth support"
+INFO [05-29|15:53:03.795] Looking for peers                        peercount=0 tried=173 static=0
+INFO [05-29|15:53:06.627] Your new key was generated               address=0x539D37e68609D8B880335042D2e69f569446452b
+WARN [05-29|15:53:06.627] Please backup your key file!             path=/workspace/AuthentiFi/myDataDir/keystore/UTC--2022-05-29T15-53-05.439358182Z--539d37e68609d8b880335042d2e69f569446452b
+WARN [05-29|15:53:06.627] Please remember your password! 
+INFO [05-29|15:53:13.848] Looking for peers                        peercount=2 tried=137 static=0
+WARN [05-29|15:53:23.168] Snapshot extension registration failed   peer=5c0206bf err="peer connected on snap without compatible eth support"
+INFO [05-29|15:53:23.203] Your new key was generated               address=0x2fF7aC1A8f8792b2B338f3Baa9b93b704801C5ff
+WARN [05-29|15:53:23.203] Please backup your key file!             path=/workspace/AuthentiFi/myDataDir/keystore/UTC--2022-05-29T15-53-21.950104131Z--2ff7ac1a8f8792b2b338f3baa9b93b704801c5ff
+WARN [05-29|15:53:23.203] Please remember your password! 
+INFO [05-29|15:53:24.355] Looking for peers                        peercount=0 tried=145 static=0
+INFO [05-29|15:53:34.480] Looking for peers                        peercount=0 tried=71  static=0
+INFO [05-29|15:53:43.067] Etherbase automatically configured       address=0x539D37e68609D8B880335042D2e69f569446452b
+INFO [05-29|15:53:44.784] Looking for peers                        peercount=0 tried=138 static=0
+INFO [05-29|15:53:54.895] Looking for peers                        peercount=0 tried=131 static=0
+INFO [05-29|15:54:04.926] Looking for peers                        peercount=0 tried=56  static=0
+INFO [05-29|15:54:15.340] Looking for peers                        peercount=0 tried=94  static=0
+WARN [05-29|15:54:21.532] Snapshot extension registration failed   peer=c76fecb9 err="peer connected on snap without compatible eth support"
+INFO [05-29|15:54:25.499] Looking for peers                        peercount=0 tried=117 static=0
+INFO [05-29|15:54:35.667] Looking for peers                        peercount=0 tried=137 static=0
+INFO [05-29|15:54:45.671] Looking for peers                        peercount=1 tried=151 static=0
+WARN [05-29|15:54:47.139] Snapshot extension registration failed   peer=089e2e46 err="peer connected on snap without compatible eth support"
+INFO [05-29|15:54:55.733] Looking for peers                        peercount=1 tried=184 static=0
+WARN [05-29|15:55:01.393] Snapshot extension registration failed   peer=5271cee3 err="peer connected on snap without compatible eth support"
+INFO [05-29|15:55:05.795] Looking for peers                        peercount=0 tried=124 static=0
+INFO [05-29|15:55:15.861] Looking for peers                        peercount=0 tried=76  static=0
+INFO [05-29|15:55:35.865] Looking for peers                        peercount=0 tried=159 static=0
+INFO [05-29|15:55:37.503] Updated mining threads                   threads=16
+INFO [05-29|15:55:37.503] Transaction pool price threshold updated price=1,000,000,000
+INFO [05-29|15:55:37.503] Commit new sealing work                  number=1 sealhash=4d0dc4..ce4ea6 uncles=0 txs=0 gas=0 fees=0 elapsed="305.85µs"
+INFO [05-29|15:55:37.504] Commit new sealing work                  number=1 sealhash=4d0dc4..ce4ea6 uncles=0 txs=0 gas=0 fees=0 elapsed="477.76µs"
+INFO [05-29|15:55:38.340] Generating DAG in progress               epoch=0 percentage=0 elapsed=301.132ms
+INFO [05-29|15:55:38.642] Generating DAG in progress               epoch=0 percentage=1 elapsed=603.009ms
+INFO [05-29|15:55:38.941] Generating DAG in progress               epoch=0 percentage=2 elapsed=902.306ms
+INFO [05-29|15:55:39.243] Generating DAG in progress               epoch=0 percentage=3 elapsed=1.203s
+INFO [05-29|15:55:39.539] Generating DAG in progress               epoch=0 percentage=4 elapsed=1.499s
+INFO [05-29|15:55:39.846] Generating DAG in progress               epoch=0 percentage=5 elapsed=1.806s
+INFO [05-29|15:55:40.150] Generating DAG in progress               epoch=0 percentage=6 elapsed=2.111s
+INFO [05-29|15:55:40.453] Generating DAG in progress               epoch=0 percentage=7 elapsed=2.414s
+INFO [05-29|15:55:40.760] Generating DAG in progress               epoch=0 percentage=8 elapsed=2.721s
+INFO [05-29|15:55:41.069] Generating DAG in progress               epoch=0 percentage=9 elapsed=3.030s
+WARN [05-29|15:55:41.131] Snapshot extension registration failed   peer=ba83bd0f err="peer connected on snap without compatible eth support"
+INFO [05-29|15:55:41.438] Generating DAG in progress               epoch=0 percentage=10 elapsed=3.399s
+INFO [05-29|15:55:41.747] Generating DAG in progress               epoch=0 percentage=11 elapsed=3.708s
+INFO [05-29|15:55:42.053] Generating DAG in progress               epoch=0 percentage=12 elapsed=4.014s
+INFO [05-29|15:55:42.350] Generating DAG in progress               epoch=0 percentage=13 elapsed=4.311s
+INFO [05-29|15:55:42.659] Generating DAG in progress               epoch=0 percentage=14 elapsed=4.620s
+INFO [05-29|15:55:42.968] Generating DAG in progress               epoch=0 percentage=15 elapsed=4.929s
+INFO [05-29|15:55:43.338] Generating DAG in progress               epoch=0 percentage=16 elapsed=5.299s
+INFO [05-29|15:55:43.648] Generating DAG in progress               epoch=0 percentage=17 elapsed=5.609s
+INFO [05-29|15:55:43.948] Generating DAG in progress               epoch=0 percentage=18 elapsed=5.909s
+INFO [05-29|15:55:44.251] Generating DAG in progress               epoch=0 percentage=19 elapsed=6.212s
+INFO [05-29|15:55:44.557] Generating DAG in progress               epoch=0 percentage=20 elapsed=6.518s
+INFO [05-29|15:55:44.861] Generating DAG in progress               epoch=0 percentage=21 elapsed=6.822s
+INFO [05-29|15:55:45.162] Generating DAG in progress               epoch=0 percentage=22 elapsed=7.123s
+INFO [05-29|15:55:45.471] Generating DAG in progress               epoch=0 percentage=23 elapsed=7.432s
+INFO [05-29|15:55:45.840] Generating DAG in progress               epoch=0 percentage=24 elapsed=7.801s
+INFO [05-29|15:55:45.931] Looking for peers                        peercount=0 tried=78  static=0
+INFO [05-29|15:55:46.154] Generating DAG in progress               epoch=0 percentage=25 elapsed=8.115s
+INFO [05-29|15:55:46.462] Generating DAG in progress               epoch=0 percentage=26 elapsed=8.423s
+INFO [05-29|15:55:46.834] Generating DAG in progress               epoch=0 percentage=27 elapsed=8.795s
+INFO [05-29|15:55:47.145] Generating DAG in progress               epoch=0 percentage=28 elapsed=9.106s
+INFO [05-29|15:55:47.450] Generating DAG in progress               epoch=0 percentage=29 elapsed=9.411s
+INFO [05-29|15:55:47.760] Generating DAG in progress               epoch=0 percentage=30 elapsed=9.721s
+INFO [05-29|15:55:48.068] Generating DAG in progress               epoch=0 percentage=31 elapsed=10.029s
+INFO [05-29|15:55:48.439] Generating DAG in progress               epoch=0 percentage=32 elapsed=10.400s
+INFO [05-29|15:55:48.747] Generating DAG in progress               epoch=0 percentage=33 elapsed=10.708s
+INFO [05-29|15:55:49.055] Generating DAG in progress               epoch=0 percentage=34 elapsed=11.016s
+INFO [05-29|15:55:49.361] Generating DAG in progress               epoch=0 percentage=35 elapsed=11.322s
+INFO [05-29|15:55:49.672] Generating DAG in progress               epoch=0 percentage=36 elapsed=11.633s
+INFO [05-29|15:55:50.041] Generating DAG in progress               epoch=0 percentage=37 elapsed=12.002s
+INFO [05-29|15:55:50.352] Generating DAG in progress               epoch=0 percentage=38 elapsed=12.313s
+INFO [05-29|15:55:50.659] Generating DAG in progress               epoch=0 percentage=39 elapsed=12.619s
+INFO [05-29|15:55:50.963] Generating DAG in progress               epoch=0 percentage=40 elapsed=12.924s
+INFO [05-29|15:55:51.339] Generating DAG in progress               epoch=0 percentage=41 elapsed=13.300s
+INFO [05-29|15:55:51.646] Generating DAG in progress               epoch=0 percentage=42 elapsed=13.606s
+INFO [05-29|15:55:51.955] Generating DAG in progress               epoch=0 percentage=43 elapsed=13.916s
+INFO [05-29|15:55:52.260] Generating DAG in progress               epoch=0 percentage=44 elapsed=14.221s
+INFO [05-29|15:55:52.635] Generating DAG in progress               epoch=0 percentage=45 elapsed=14.596s
+INFO [05-29|15:55:52.942] Generating DAG in progress               epoch=0 percentage=46 elapsed=14.903s
+INFO [05-29|15:55:53.248] Generating DAG in progress               epoch=0 percentage=47 elapsed=15.209s
+INFO [05-29|15:55:53.555] Generating DAG in progress               epoch=0 percentage=48 elapsed=15.516s
+INFO [05-29|15:55:53.870] Generating DAG in progress               epoch=0 percentage=49 elapsed=15.831s
+INFO [05-29|15:55:54.240] Generating DAG in progress               epoch=0 percentage=50 elapsed=16.201s
+INFO [05-29|15:55:54.551] Generating DAG in progress               epoch=0 percentage=51 elapsed=16.512s
+INFO [05-29|15:55:54.855] Generating DAG in progress               epoch=0 percentage=52 elapsed=16.816s
+INFO [05-29|15:55:55.159] Generating DAG in progress               epoch=0 percentage=53 elapsed=17.120s
+INFO [05-29|15:55:55.462] Generating DAG in progress               epoch=0 percentage=54 elapsed=17.423s
+INFO [05-29|15:55:55.770] Generating DAG in progress               epoch=0 percentage=55 elapsed=17.731s
+INFO [05-29|15:55:56.134] Generating DAG in progress               epoch=0 percentage=56 elapsed=18.095s
+INFO [05-29|15:55:56.440] Generating DAG in progress               epoch=0 percentage=57 elapsed=18.400s
+INFO [05-29|15:55:56.740] Generating DAG in progress               epoch=0 percentage=58 elapsed=18.701s
+INFO [05-29|15:55:57.038] Generating DAG in progress               epoch=0 percentage=59 elapsed=18.998s
+INFO [05-29|15:55:57.331] Generating DAG in progress               epoch=0 percentage=60 elapsed=19.292s
+INFO [05-29|15:55:57.561] Generating DAG in progress               epoch=0 percentage=61 elapsed=19.522s
+INFO [05-29|15:55:57.860] Generating DAG in progress               epoch=0 percentage=62 elapsed=19.821s
+INFO [05-29|15:55:58.157] Generating DAG in progress               epoch=0 percentage=63 elapsed=20.118s
+INFO [05-29|15:55:58.451] Generating DAG in progress               epoch=0 percentage=64 elapsed=20.412s
+INFO [05-29|15:55:58.745] Generating DAG in progress               epoch=0 percentage=65 elapsed=20.706s
+INFO [05-29|15:55:59.037] Generating DAG in progress               epoch=0 percentage=66 elapsed=20.998s
+INFO [05-29|15:55:59.270] Generating DAG in progress               epoch=0 percentage=67 elapsed=21.231s
+INFO [05-29|15:55:59.557] Generating DAG in progress               epoch=0 percentage=68 elapsed=21.518s
+INFO [05-29|15:55:59.853] Generating DAG in progress               epoch=0 percentage=69 elapsed=21.814s
+INFO [05-29|15:56:00.153] Generating DAG in progress               epoch=0 percentage=70 elapsed=22.114s
+INFO [05-29|15:56:00.448] Generating DAG in progress               epoch=0 percentage=71 elapsed=22.409s
+INFO [05-29|15:56:00.749] Generating DAG in progress               epoch=0 percentage=72 elapsed=22.710s
+INFO [05-29|15:56:01.053] Generating DAG in progress               epoch=0 percentage=73 elapsed=23.014s
+INFO [05-29|15:56:01.349] Generating DAG in progress               epoch=0 percentage=74 elapsed=23.310s
+INFO [05-29|15:56:01.642] Generating DAG in progress               epoch=0 percentage=75 elapsed=23.603s
+INFO [05-29|15:56:01.932] Generating DAG in progress               epoch=0 percentage=76 elapsed=23.892s
+INFO [05-29|15:56:02.160] Generating DAG in progress               epoch=0 percentage=77 elapsed=24.121s
+INFO [05-29|15:56:02.450] Generating DAG in progress               epoch=0 percentage=78 elapsed=24.411s
+INFO [05-29|15:56:02.747] Generating DAG in progress               epoch=0 percentage=79 elapsed=24.708s
+INFO [05-29|15:56:03.035] Generating DAG in progress               epoch=0 percentage=80 elapsed=24.995s
+INFO [05-29|15:56:03.261] Generating DAG in progress               epoch=0 percentage=81 elapsed=25.222s
+INFO [05-29|15:56:03.552] Generating DAG in progress               epoch=0 percentage=82 elapsed=25.513s
+INFO [05-29|15:56:03.842] Generating DAG in progress               epoch=0 percentage=83 elapsed=25.803s
+INFO [05-29|15:56:04.132] Generating DAG in progress               epoch=0 percentage=84 elapsed=26.092s
+INFO [05-29|15:56:04.357] Generating DAG in progress               epoch=0 percentage=85 elapsed=26.318s
+INFO [05-29|15:56:04.648] Generating DAG in progress               epoch=0 percentage=86 elapsed=26.609s
+INFO [05-29|15:56:04.939] Generating DAG in progress               epoch=0 percentage=87 elapsed=26.900s
+INFO [05-29|15:56:05.165] Generating DAG in progress               epoch=0 percentage=88 elapsed=27.126s
+INFO [05-29|15:56:05.457] Generating DAG in progress               epoch=0 percentage=89 elapsed=27.418s
+INFO [05-29|15:56:05.749] Generating DAG in progress               epoch=0 percentage=90 elapsed=27.710s
+INFO [05-29|15:56:06.042] Generating DAG in progress               epoch=0 percentage=91 elapsed=28.003s
+INFO [05-29|15:56:06.337] Generating DAG in progress               epoch=0 percentage=92 elapsed=28.298s
+INFO [05-29|15:56:06.431] Looking for peers                        peercount=0 tried=163 static=0
+INFO [05-29|15:56:06.565] Generating DAG in progress               epoch=0 percentage=93 elapsed=28.526s
+INFO [05-29|15:56:06.855] Generating DAG in progress               epoch=0 percentage=94 elapsed=28.816s
+INFO [05-29|15:56:07.145] Generating DAG in progress               epoch=0 percentage=95 elapsed=29.106s
+INFO [05-29|15:56:07.434] Generating DAG in progress               epoch=0 percentage=96 elapsed=29.395s
+INFO [05-29|15:56:07.664] Generating DAG in progress               epoch=0 percentage=97 elapsed=29.624s
+INFO [05-29|15:56:07.952] Generating DAG in progress               epoch=0 percentage=98 elapsed=29.913s
+INFO [05-29|15:56:08.293] Generating DAG in progress               epoch=0 percentage=99 elapsed=30.254s
+INFO [05-29|15:56:08.295] Generated ethash verification cache      epoch=0 elapsed=30.255s
+INFO [05-29|15:56:11.056] Generating DAG in progress               epoch=1 percentage=0  elapsed=900.230ms
+INFO [05-29|15:56:11.564] Generating DAG in progress               epoch=1 percentage=1  elapsed=1.408s
+INFO [05-29|15:56:12.267] Generating DAG in progress               epoch=1 percentage=2  elapsed=2.111s
+INFO [05-29|15:56:12.939] Generating DAG in progress               epoch=1 percentage=3  elapsed=2.783s
+INFO [05-29|15:56:13.539] Generating DAG in progress               epoch=1 percentage=4  elapsed=3.382s
+INFO [05-29|15:56:14.044] Generating DAG in progress               epoch=1 percentage=5  elapsed=3.888s
+INFO [05-29|15:56:14.635] Generating DAG in progress               epoch=1 percentage=6  elapsed=4.479s
+INFO [05-29|15:56:15.151] Generating DAG in progress               epoch=1 percentage=7  elapsed=4.995s
+INFO [05-29|15:56:15.847] Generating DAG in progress               epoch=1 percentage=8  elapsed=5.691s
+INFO [05-29|15:56:16.435] Generating DAG in progress               epoch=1 percentage=9  elapsed=6.279s
+INFO [05-29|15:56:16.542] Looking for peers                        peercount=0 tried=93  static=0
+INFO [05-29|15:56:17.058] Generating DAG in progress               epoch=1 percentage=10 elapsed=6.902s
+INFO [05-29|15:56:17.554] Generating DAG in progress               epoch=1 percentage=11 elapsed=7.398s
+INFO [05-29|15:56:18.160] Generating DAG in progress               epoch=1 percentage=12 elapsed=8.004s
+INFO [05-29|15:56:18.741] Generating DAG in progress               epoch=1 percentage=13 elapsed=8.585s
+INFO [05-29|15:56:19.258] Generating DAG in progress               epoch=1 percentage=14 elapsed=9.102s
+INFO [05-29|15:56:19.857] Generating DAG in progress               epoch=1 percentage=15 elapsed=9.701s
+INFO [05-29|15:56:20.448] Generating DAG in progress               epoch=1 percentage=16 elapsed=10.292s
+INFO [05-29|15:56:21.055] Generating DAG in progress               epoch=1 percentage=17 elapsed=10.899s
+INFO [05-29|15:56:21.842] Generating DAG in progress               epoch=1 percentage=18 elapsed=11.685s
+INFO [05-29|15:56:22.368] Generating DAG in progress               epoch=1 percentage=19 elapsed=12.212s
+INFO [05-29|15:56:22.966] Generating DAG in progress               epoch=1 percentage=20 elapsed=12.810s
+INFO [05-29|15:56:23.848] Generating DAG in progress               epoch=1 percentage=21 elapsed=13.692s
+INFO [05-29|15:56:24.558] Generating DAG in progress               epoch=1 percentage=22 elapsed=14.402s
+INFO [05-29|15:56:25.257] Generating DAG in progress               epoch=1 percentage=23 elapsed=15.101s
+INFO [05-29|15:56:26.047] Generating DAG in progress               epoch=1 percentage=24 elapsed=15.891s
+INFO [05-29|15:56:26.843] Generating DAG in progress               epoch=1 percentage=25 elapsed=16.687s
+INFO [05-29|15:56:27.555] Generating DAG in progress               epoch=1 percentage=26 elapsed=17.399s
+INFO [05-29|15:56:28.341] Generating DAG in progress               epoch=1 percentage=27 elapsed=18.185s
+INFO [05-29|15:56:28.441] Looking for peers                        peercount=0 tried=96  static=0
+INFO [05-29|15:56:29.134] Generating DAG in progress               epoch=1 percentage=28 elapsed=18.978s
+INFO [05-29|15:56:29.869] Generating DAG in progress               epoch=1 percentage=29 elapsed=19.712s
+INFO [05-29|15:56:30.657] Generating DAG in progress               epoch=1 percentage=30 elapsed=20.501s
+INFO [05-29|15:56:31.565] Generating DAG in progress               epoch=1 percentage=31 elapsed=21.409s
+INFO [05-29|15:56:32.449] Generating DAG in progress               epoch=1 percentage=32 elapsed=22.293s
+INFO [05-29|15:56:33.262] Generating DAG in progress               epoch=1 percentage=33 elapsed=23.106s
+INFO [05-29|15:56:34.065] Generating DAG in progress               epoch=1 percentage=34 elapsed=23.909s
+INFO [05-29|15:56:34.751] Generating DAG in progress               epoch=1 percentage=35 elapsed=24.595s
+INFO [05-29|15:56:35.564] Generating DAG in progress               epoch=1 percentage=36 elapsed=25.408s
+INFO [05-29|15:56:36.333] Generating DAG in progress               epoch=1 percentage=37 elapsed=26.176s
+INFO [05-29|15:56:36.961] Generating DAG in progress               epoch=1 percentage=38 elapsed=26.805s
+INFO [05-29|15:56:37.664] Generating DAG in progress               epoch=1 percentage=39 elapsed=27.508s
+INFO [05-29|15:56:38.438] Generating DAG in progress               epoch=1 percentage=40 elapsed=28.281s
+INFO [05-29|15:56:38.541] Looking for peers                        peercount=0 tried=91  static=0
+INFO [05-29|15:56:39.072] Generating DAG in progress               epoch=1 percentage=41 elapsed=28.916s
+INFO [05-29|15:56:39.844] Generating DAG in progress               epoch=1 percentage=42 elapsed=29.688s
+INFO [05-29|15:56:40.548] Generating DAG in progress               epoch=1 percentage=43 elapsed=30.392s
+INFO [05-29|15:56:41.357] Generating DAG in progress               epoch=1 percentage=44 elapsed=31.201s
+INFO [05-29|15:56:42.162] Generating DAG in progress               epoch=1 percentage=45 elapsed=32.005s
+INFO [05-29|15:56:42.857] Generating DAG in progress               epoch=1 percentage=46 elapsed=32.701s
+INFO [05-29|15:56:43.943] Generating DAG in progress               epoch=1 percentage=47 elapsed=33.786s
+INFO [05-29|15:56:44.835] Generating DAG in progress               epoch=1 percentage=48 elapsed=34.679s
+INFO [05-29|15:56:45.555] Generating DAG in progress               epoch=1 percentage=49 elapsed=35.398s
+INFO [05-29|15:56:46.256] Generating DAG in progress               epoch=1 percentage=50 elapsed=36.100s
+INFO [05-29|15:56:46.967] Generating DAG in progress               epoch=1 percentage=51 elapsed=36.811s
+INFO [05-29|15:56:47.838] Generating DAG in progress               epoch=1 percentage=52 elapsed=37.682s
+INFO [05-29|15:56:48.541] Looking for peers                        peercount=1 tried=102 static=0
+INFO [05-29|15:56:48.663] Generating DAG in progress               epoch=1 percentage=53 elapsed=38.507s
+INFO [05-29|15:56:49.209] Generating DAG in progress               epoch=1 percentage=54 elapsed=39.052s
+INFO [05-29|15:56:49.620] Generating DAG in progress               epoch=1 percentage=55 elapsed=39.463s
+INFO [05-29|15:56:50.339] Generating DAG in progress               epoch=1 percentage=56 elapsed=40.183s
+INFO [05-29|15:56:50.624] Generating DAG in progress               epoch=1 percentage=57 elapsed=40.468s
+INFO [05-29|15:56:50.895] Generating DAG in progress               epoch=1 percentage=58 elapsed=40.739s
+INFO [05-29|15:56:51.226] Generating DAG in progress               epoch=1 percentage=59 elapsed=41.069s
+INFO [05-29|15:56:51.530] Generating DAG in progress               epoch=1 percentage=60 elapsed=41.374s
+INFO [05-29|15:56:51.851] Generating DAG in progress               epoch=1 percentage=61 elapsed=41.695s
+INFO [05-29|15:56:52.170] Generating DAG in progress               epoch=1 percentage=62 elapsed=42.014s
+INFO [05-29|15:56:52.744] Generating DAG in progress               epoch=1 percentage=63 elapsed=42.588s
+INFO [05-29|15:56:53.551] Generating DAG in progress               epoch=1 percentage=64 elapsed=43.395s
+INFO [05-29|15:56:54.449] Generating DAG in progress               epoch=1 percentage=65 elapsed=44.293s
+INFO [05-29|15:56:55.264] Generating DAG in progress               epoch=1 percentage=66 elapsed=45.108s
+INFO [05-29|15:56:55.959] Generating DAG in progress               epoch=1 percentage=67 elapsed=45.803s
+INFO [05-29|15:56:56.859] Generating DAG in progress               epoch=1 percentage=68 elapsed=46.702s
+INFO [05-29|15:56:57.736] Generating DAG in progress               epoch=1 percentage=69 elapsed=47.580s
+INFO [05-29|15:56:58.545] Looking for peers                        peercount=0 tried=98  static=0
+INFO [05-29|15:56:58.547] Generating DAG in progress               epoch=1 percentage=70 elapsed=48.391s
+INFO [05-29|15:56:59.431] Generating DAG in progress               epoch=1 percentage=71 elapsed=49.216s
+INFO [05-29|15:57:00.272] Generating DAG in progress               epoch=1 percentage=72 elapsed=50.116s
+INFO [05-29|15:57:01.164] Generating DAG in progress               epoch=1 percentage=73 elapsed=51.008s
+INFO [05-29|15:57:01.962] Generating DAG in progress               epoch=1 percentage=74 elapsed=51.806s
+INFO [05-29|15:57:02.938] Generating DAG in progress               epoch=1 percentage=75 elapsed=52.782s
+INFO [05-29|15:57:03.753] Generating DAG in progress               epoch=1 percentage=76 elapsed=53.597s
+INFO [05-29|15:57:04.537] Generating DAG in progress               epoch=1 percentage=77 elapsed=54.381s
+INFO [05-29|15:57:05.334] Generating DAG in progress               epoch=1 percentage=78 elapsed=55.178s
+INFO [05-29|15:57:06.146] Generating DAG in progress               epoch=1 percentage=79 elapsed=55.990s
+INFO [05-29|15:57:06.952] Generating DAG in progress               epoch=1 percentage=80 elapsed=56.796s
+INFO [05-29|15:57:07.636] Generating DAG in progress               epoch=1 percentage=81 elapsed=57.480s
+INFO [05-29|15:57:08.267] Generating DAG in progress               epoch=1 percentage=82 elapsed=58.111s
+INFO [05-29|15:57:08.951] Looking for peers                        peercount=0 tried=128 static=0
+INFO [05-29|15:57:08.963] Generating DAG in progress               epoch=1 percentage=83 elapsed=58.807s
+INFO [05-29|15:57:09.668] Generating DAG in progress               epoch=1 percentage=84 elapsed=59.512s
+INFO [05-29|15:57:10.359] Generating DAG in progress               epoch=1 percentage=85 elapsed=1m0.203s
+INFO [05-29|15:57:11.055] Generating DAG in progress               epoch=1 percentage=86 elapsed=1m0.899s
+INFO [05-29|15:57:11.670] Generating DAG in progress               epoch=1 percentage=87 elapsed=1m1.514s
+INFO [05-29|15:57:12.350] Generating DAG in progress               epoch=1 percentage=88 elapsed=1m2.194s
+INFO [05-29|15:57:13.159] Generating DAG in progress               epoch=1 percentage=89 elapsed=1m3.003s
+INFO [05-29|15:57:13.764] Generating DAG in progress               epoch=1 percentage=90 elapsed=1m3.608s
+INFO [05-29|15:57:14.360] Generating DAG in progress               epoch=1 percentage=91 elapsed=1m4.204s
+INFO [05-29|15:57:14.951] Generating DAG in progress               epoch=1 percentage=92 elapsed=1m4.795s
+INFO [05-29|15:57:15.565] Generating DAG in progress               epoch=1 percentage=93 elapsed=1m5.408s
+INFO [05-29|15:57:16.239] Generating DAG in progress               epoch=1 percentage=94 elapsed=1m6.083s
+INFO [05-29|15:57:16.854] Generating DAG in progress               epoch=1 percentage=95 elapsed=1m6.698s
+INFO [05-29|15:57:17.439] Generating DAG in progress               epoch=1 percentage=96 elapsed=1m7.283s
+INFO [05-29|15:57:18.770] Generating DAG in progress               epoch=1 percentage=97 elapsed=1m8.614s
+INFO [05-29|15:57:19.041] Looking for peers                        peercount=0 tried=117 static=0
+INFO [05-29|15:57:21.939] Generating DAG in progress               epoch=1 percentage=98 elapsed=1m11.782s
+INFO [05-29|15:57:29.242] Looking for peers                        peercount=0 tried=100 static=0
+INFO [05-29|15:57:30.268] Generating DAG in progress               epoch=1 percentage=99 elapsed=1m20.112s
+INFO [05-29|15:57:30.333] Generated ethash verification cache      epoch=1 elapsed=1m20.177s
+INFO [05-29|15:57:39.331] Looking for peers                        peercount=0 tried=112 static=0
+INFO [05-29|15:57:49.435] Looking for peers                        peercount=0 tried=128 static=0
+INFO [05-29|15:57:59.451] Looking for peers                        peercount=0 tried=98  static=0
+WARN [05-29|15:58:03.552] Snapshot extension registration failed   peer=04dfa983 err="peer connected on snap without compatible eth support"
+INFO [05-29|15:58:09.551] Looking for peers                        peercount=0 tried=90  static=0
+INFO [05-29|15:58:19.651] Looking for peers                        peercount=0 tried=107 static=0
+INFO [05-29|15:58:29.731] Looking for peers                        peercount=0 tried=111 static=0
+INFO [05-29|15:58:40.043] Looking for peers                        peercount=0 tried=120 static=0
+WARN [05-29|15:58:49.642] Snapshot extension registration failed   peer=7bcee16b err="peer connected on snap without compatible eth support"
+INFO [05-29|15:58:50.131] Looking for peers                        peercount=1 tried=133 static=0
+INFO [05-29|15:59:00.131] Looking for peers                        peercount=1 tried=62  static=0
+INFO [05-29|15:59:10.131] Looking for peers                        peercount=1 tried=131 static=0
+INFO [05-29|15:59:20.151] Looking for peers                        peercount=1 tried=110 static=0
+WARN [05-29|15:59:22.131] Snapshot extension registration failed   peer=532ebfdc err="peer connected on snap without compatible eth support"
+WARN [05-29|15:59:28.932] Snapshot extension registration failed   peer=bd651303 err="peer connected on snap without compatible eth support"
+INFO [05-29|15:59:30.243] Looking for peers                        peercount=0 tried=189 static=0
+INFO [05-29|15:59:40.533] Looking for peers                        peercount=0 tried=96  static=0
+INFO [05-29|15:59:50.550] Looking for peers                        peercount=0 tried=93  static=0
+INFO [05-29|16:00:01.733] Looking for peers                        peercount=0 tried=107 static=0
+INFO [05-29|16:00:12.051] Looking for peers                        peercount=0 tried=53  static=0
+WARN [05-29|16:00:13.633] Snapshot extension registration failed   peer=c76fecb9 err="peer connected on snap without compatible eth support"
+INFO [05-29|16:00:22.338] Looking for peers                        peercount=0 tried=95  static=0
+INFO [05-29|16:00:32.351] Looking for peers                        peercount=1 tried=179 static=0
+INFO [05-29|16:00:42.634] Looking for peers                        peercount=0 tried=105 static=0
+INFO [05-29|16:00:52.644] Looking for peers                        peercount=0 tried=100 static=0
+INFO [05-29|16:01:02.652] Looking for peers                        peercount=0 tried=76  static=0
+INFO [05-29|16:01:12.657] Looking for peers                        peercount=2 tried=162 static=0
+WARN [05-29|16:01:20.352] Snapshot extension registration failed   peer=a4da81c9 err="peer connected on snap without compatible eth support"
+INFO [05-29|16:01:22.851] Looking for peers                        peercount=0 tried=91  static=0
+WARN [05-29|16:01:27.633] Snapshot extension registration failed   peer=3af25a30 err="peer connected on snap without compatible eth support"
+INFO [05-29|16:01:33.352] Looking for peers                        peercount=0 tried=77  static=0
+WARN [05-29|16:01:37.641] Snapshot extension registration failed   peer=ffc54465 err="peer connected on snap without compatible eth support"
+INFO [05-29|16:01:43.541] Looking for peers                        peercount=0 tried=90  static=0
+WARN [05-29|16:01:46.131] Snapshot extension registration failed   peer=2c416898 err="peer connected on snap without compatible eth support"
+INFO [05-29|16:01:53.631] Looking for peers                        peercount=1 tried=135 static=0
+WARN [05-29|16:02:03.231] Snapshot extension registration failed   peer=4dfa8e8a err="peer connected on snap without compatible eth support"
+INFO [05-29|16:02:03.631] Looking for peers                        peercount=0 tried=109 static=0
+INFO [05-29|16:02:13.751] Looking for peers                        peercount=0 tried=104 static=0
+INFO [05-29|16:02:23.943] Looking for peers                        peercount=0 tried=111 static=0
+WARN [05-29|16:02:27.051] Snapshot extension registration failed   peer=569f3be3 err="peer connected on snap without compatible eth support"
+WARN [05-29|16:02:27.543] Snapshot extension registration failed   peer=532ebfdc err="peer connected on snap without compatible eth support"
+WARN [05-29|16:02:27.831] Snapshot extension registration failed   peer=5271cee3 err="peer connected on snap without compatible eth support"
+INFO [05-29|16:02:34.131] Looking for peers                        peercount=1 tried=108 static=0
+INFO [05-29|16:02:45.155] Looking for peers                        peercount=0 tried=86  static=0
+WARN [05-29|16:02:47.533] Snapshot extension registration failed   peer=6ec80bbf err="peer connected on snap without compatible eth support"
+INFO [05-29|16:02:55.231] Looking for peers                        peercount=0 tried=178 static=0
+INFO [05-29|16:03:05.261] Looking for peers                        peercount=0 tried=111 static=0
+INFO [05-29|16:03:15.431] Looking for peers                        peercount=1 tried=101 static=0
+WARN [05-29|16:03:17.431] Snapshot extension registration failed   peer=76804bfd err="peer connected on snap without compatible eth support"
+INFO [05-29|16:03:25.541] Looking for peers                        peercount=0 tried=95  static=0
+INFO [05-29|16:03:35.551] Looking for peers                        peercount=0 tried=190 static=0
+WARN [05-29|16:03:40.631] Snapshot extension registration failed   peer=089e2e46 err="peer connected on snap without compatible eth support"
+INFO [05-29|16:03:45.731] Looking for peers                        peercount=0 tried=145 static=0
+INFO [05-29|16:03:56.551] Looking for peers                        peercount=0 tried=86  static=0
+INFO [05-29|16:04:06.563] Looking for peers                        peercount=0 tried=49  static=0
+INFO [05-29|16:04:16.652] Looking for peers                        peercount=0 tried=106 static=0
+WARN [05-29|16:04:25.432] Snapshot extension registration failed   peer=6ff70d82 err="peer connected on snap without compatible eth support"
+INFO [05-29|16:04:26.731] Looking for peers                        peercount=0 tried=102 static=0
+INFO [05-29|16:04:36.741] Looking for peers                        peercount=0 tried=145 static=0
+WARN [05-29|16:04:41.131] Snapshot extension registration failed   peer=2e150a78 err="peer connected on snap without compatible eth support"
+INFO [05-29|16:04:46.751] Looking for peers                        peercount=0 tried=77  static=0
+INFO [05-29|16:04:57.932] Looking for peers                        peercount=0 tried=124 static=0
+INFO [05-29|16:05:07.933] Looking for peers                        peercount=0 tried=46  static=0
+INFO [05-29|16:05:18.254] Looking for peers                        peercount=1 tried=197 static=0
+INFO [05-29|16:05:28.851] Looking for peers                        peercount=0 tried=75  static=0
+INFO [05-29|16:05:39.351] Looking for peers                        peercount=0 tried=118 static=0
+WARN [05-29|16:05:40.192] Snapshot extension registration failed   peer=4789efb3 err="peer connected on snap without compatible eth support"
+WARN [05-29|16:05:49.832] Snapshot extension registration failed   peer=d5a6c885 err="peer connected on snap without compatible eth support"
+INFO [05-29|16:06:00.834] Looking for peers                        peercount=0 tried=140 static=0
+INFO [05-29|16:06:11.151] Looking for peers                        peercount=0 tried=101 static=0
+INFO [05-29|16:06:21.551] Looking for peers                        peercount=0 tried=116 static=0
+WARN [05-29|16:06:28.131] Snapshot extension registration failed   peer=eec7c316 err="peer connected on snap without compatible eth support"
+INFO [05-29|16:06:29.634] IPC endpoint closed                      url=/workspace/AuthentiFi/myDataDir/geth.ipc
+INFO [05-29|16:06:29.734] Ethereum protocol stopped 
+INFO [05-29|16:06:29.735] Transaction pool stopped 
+INFO [05-29|16:06:29.735] Writing snapshot state to disk           root=d7f897..0f0544
+INFO [05-29|16:06:29.735] Persisted trie from memory database      nodes=0 size=0.00B time="3.39µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [05-29|16:06:29.735] Writing clean trie cache to disk         path=/workspace/AuthentiFi/myDataDir/geth/triecache threads=16
+INFO [05-29|16:06:29.738] Persisted the clean trie cache           path=/workspace/AuthentiFi/myDataDir/geth/triecache elapsed=2.952ms
+INFO [05-29|16:06:29.738] Blockchain stopped 

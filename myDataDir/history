@@ -1,0 +1,7 @@
+
+> eth.coinbase
+eth.coinbase
+miner.setEtherbase(web3.eth.accounts[0])
+eth.getBalance(eth.coinbase)
+miner.start()
+geth --datadir ./myDataDir init ./myGenesis.json

@@ -1,0 +1,20 @@
+=============== May 29, 2022 (UTC) ===============
+15:45:42.361584 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:45:42.363081 db@open opening
+15:45:42.363357 version@stat F·[] S·0B[] Sc·[]
+15:45:42.363799 db@janitor F·2 G·0
+15:45:42.363830 db@open done T·724.19µs
+15:45:51.309543 db@close closing
+15:45:51.309636 db@close done T·90.69µs
+=============== May 29, 2022 (UTC) ===============
+15:52:53.785321 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:52:53.785623 version@stat F·[] S·0B[] Sc·[]
+15:52:53.785662 db@open opening
+15:52:53.785702 journal@recovery F·1
+15:52:53.786163 journal@recovery recovering @1
+15:52:53.786907 memdb@flush created L0@2 N·76 S·2KiB "loc..seq,v2":"version,v1"
+15:52:53.787368 version@stat F·[1] S·2KiB[2KiB] Sc·[0.25]
+15:52:53.789267 db@janitor F·3 G·0
+15:52:53.789314 db@open done T·3.64625ms
+16:06:30.232903 db@close closing
+16:06:30.233403 db@close done T·501.94µs

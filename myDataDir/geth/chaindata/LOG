@@ -1,0 +1,39 @@
+=============== May 29, 2022 (UTC) ===============
+15:45:42.218331 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:45:42.219917 db@open opening
+15:45:42.221314 version@stat F·[] S·0B[] Sc·[]
+15:45:42.221770 db@janitor F·2 G·0
+15:45:42.221806 db@open done T·1.861139ms
+15:45:50.178380 db@close closing
+15:45:50.178473 db@close done T·92.54µs
+=============== May 29, 2022 (UTC) ===============
+15:51:19.319510 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:51:19.319611 version@stat F·[] S·0B[] Sc·[]
+15:51:19.319639 db@open opening
+15:51:19.319667 journal@recovery F·1
+15:51:19.320086 journal@recovery recovering @1
+15:51:19.357880 memdb@flush created L0@2 N·30167 S·2MiB "\x00\x00\xae..\x82\x88\x11,v9389":"\xff\xfc\x94..\xa5\x05\xa1,v9518"
+15:51:19.358315 version@stat F·[1] S·2MiB[2MiB] Sc·[0.25]
+15:51:19.360466 db@janitor F·3 G·0
+15:51:19.360500 db@open done T·40.855163ms
+=============== May 29, 2022 (UTC) ===============
+15:52:53.750304 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:52:53.750421 version@stat F·[1] S·2MiB[2MiB] Sc·[0.25]
+15:52:53.750454 db@open opening
+15:52:53.750502 journal@recovery F·1
+15:52:53.751997 journal@recovery recovering @3
+15:52:53.753718 version@stat F·[1] S·2MiB[2MiB] Sc·[0.25]
+15:52:53.755643 db@janitor F·3 G·0
+15:52:53.755671 db@open done T·5.211119ms
+16:06:29.738466 db@close closing
+16:06:29.738872 db@close done T·404.79µs
+=============== May 29, 2022 (UTC) ===============
+16:06:33.185062 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:06:33.185756 version@stat F·[1] S·2MiB[2MiB] Sc·[0.25]
+16:06:33.185790 db@open opening
+16:06:33.185823 journal@recovery F·1
+16:06:33.186094 journal@recovery recovering @5
+16:06:33.187861 memdb@flush created L0@7 N·7 S·699B "Sna..tor,v30173":"unc..own,v30170"
+16:06:33.188029 version@stat F·[2] S·2MiB[2MiB] Sc·[0.50]
+16:06:33.189880 db@janitor F·4 G·0
+16:06:33.189914 db@open done T·4.117949ms
